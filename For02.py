@@ -2,11 +2,13 @@ def main(n):
     """
     Return numbers from zero to n in a string view.
     Args:
-        n: int
+        n: int = 3
     Returns:
-        string: return  answer
+        string: return  answer = "0,1,2,3"
     """
     answer = ""
     for i in range(n):
-        answer += str(i)
+        if i == n - 1:
+            answer += str(i)
+        answer += str(i) + ","
     return answer
