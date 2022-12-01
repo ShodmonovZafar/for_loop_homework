@@ -8,5 +8,5 @@ def main(list1 : list[str]):
     """
     answer = []
     for i in list1:
-        answer.append(i.capitalize(i))
+        answer.append(i.capitalize())
     return answer
