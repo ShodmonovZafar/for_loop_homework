@@ -10,5 +10,6 @@ def main(n):
     for i in range(n):
         if i == n - 1:
             answer += str(i)
-        answer += str(i) + ","
+        else:
+            answer += str(i) + ","
     return answer
