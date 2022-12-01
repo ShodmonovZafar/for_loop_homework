@@ -1,4 +1,4 @@
-def main(list1):
+def main(list1 : list[str]):
     """
     Returns a list where only the first letter of each name is capitalized.
     Args:
@@ -6,4 +6,7 @@ def main(list1):
     Returns:
         list: return  answer
     """
-    return
+    answer = []
+    for i in list1:
+        answer.append(i.capitalize(i))
+    return answer
